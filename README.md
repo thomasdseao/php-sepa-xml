@@ -18,6 +18,7 @@ Institutions and associations that should accept this format:
 
 However, always verify generated files with your bank before using!
 
+(The package manage wiretransfer to currencies without decimals JPY,VND,KRW)
 
 ##Installation
 ###Composer
