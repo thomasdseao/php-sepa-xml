@@ -20,7 +20,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\Util;
+namespace Digitick\Sepa\Util;
 
 class StringHelper
 {

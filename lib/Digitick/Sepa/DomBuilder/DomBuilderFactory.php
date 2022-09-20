@@ -20,10 +20,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\DomBuilder;
+namespace Digitick\Sepa\DomBuilder;
 
-use Thomasdseao\Sepa\Exception\InvalidArgumentException;
-use Thomasdseao\Sepa\TransferFile\TransferFileInterface;
+use Digitick\Sepa\Exception\InvalidArgumentException;
+use Digitick\Sepa\TransferFile\TransferFileInterface;
 
 class DomBuilderFactory
 {

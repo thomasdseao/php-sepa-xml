@@ -20,18 +20,18 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\DomBuilder;
+namespace Digitick\Sepa\DomBuilder;
 
-use Thomasdseao\Sepa\GroupHeader;
-use Thomasdseao\Sepa\PaymentInformation;
-use Thomasdseao\Sepa\TransferFile\TransferFileInterface;
-use Thomasdseao\Sepa\TransferInformation\TransferInformationInterface;
+use Digitick\Sepa\GroupHeader;
+use Digitick\Sepa\PaymentInformation;
+use Digitick\Sepa\TransferFile\TransferFileInterface;
+use Digitick\Sepa\TransferInformation\TransferInformationInterface;
 
 /**
  * Used to build the Dom-structure for the different types of SEPA files
  *
  * Class DomBuilderInterface
- * @package Thomasdseao\Sepa\DomBuilder
+ * @package Digitick\Sepa\DomBuilder
  */
 interface DomBuilderInterface
 {

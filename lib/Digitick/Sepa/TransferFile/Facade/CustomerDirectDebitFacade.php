@@ -20,11 +20,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\TransferFile\Facade;
+namespace Digitick\Sepa\TransferFile\Facade;
 
-use Thomasdseao\Sepa\Exception\InvalidArgumentException;
-use Thomasdseao\Sepa\PaymentInformation;
-use Thomasdseao\Sepa\TransferInformation\CustomerDirectDebitTransferInformation;
+use Digitick\Sepa\Exception\InvalidArgumentException;
+use Digitick\Sepa\PaymentInformation;
+use Digitick\Sepa\TransferInformation\CustomerDirectDebitTransferInformation;
 
 class CustomerDirectDebitFacade extends BaseCustomerTransferFileFacade
 {

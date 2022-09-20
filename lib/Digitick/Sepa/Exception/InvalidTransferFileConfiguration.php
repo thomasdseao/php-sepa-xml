@@ -1,6 +1,6 @@
 <?php
 
-namespace Thomasdseao\Sepa\Exception;
+namespace Digitick\Sepa\Exception;
 
 /**
  * SEPA file generator.

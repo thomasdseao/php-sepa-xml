@@ -20,12 +20,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\TransferFile;
+namespace Digitick\Sepa\TransferFile;
 
-use Thomasdseao\Sepa\DomBuilder\DomBuilderInterface;
-use Thomasdseao\Sepa\Exception\InvalidTransferFileConfiguration;
-use Thomasdseao\Sepa\GroupHeader;
-use Thomasdseao\Sepa\PaymentInformation;
+use Digitick\Sepa\DomBuilder\DomBuilderInterface;
+use Digitick\Sepa\Exception\InvalidTransferFileConfiguration;
+use Digitick\Sepa\GroupHeader;
+use Digitick\Sepa\PaymentInformation;
 
 abstract class BaseTransferFile implements TransferFileInterface
 {
