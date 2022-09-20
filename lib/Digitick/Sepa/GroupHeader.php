@@ -20,10 +20,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa;
+namespace Digitick\Sepa;
 
-use Thomasdseao\Sepa\DomBuilder\DomBuilderInterface;
-use Thomasdseao\Sepa\Util\StringHelper;
+use Digitick\Sepa\DomBuilder\DomBuilderInterface;
+use Digitick\Sepa\Util\StringHelper;
 
 class GroupHeader
 {

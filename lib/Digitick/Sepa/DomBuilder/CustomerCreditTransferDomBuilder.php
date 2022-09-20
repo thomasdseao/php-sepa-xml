@@ -20,14 +20,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\DomBuilder;
+namespace Digitick\Sepa\DomBuilder;
 
-use Thomasdseao\Sepa\PaymentInformation;
-use Thomasdseao\Sepa\TransferFile\CustomerCreditTransferFile;
-use Thomasdseao\Sepa\TransferFile\TransferFileInterface;
-use Thomasdseao\Sepa\GroupHeader;
-use Thomasdseao\Sepa\TransferInformation\CustomerCreditTransferInformation;
-use Thomasdseao\Sepa\TransferInformation\TransferInformationInterface;
+use Digitick\Sepa\PaymentInformation;
+use Digitick\Sepa\TransferFile\CustomerCreditTransferFile;
+use Digitick\Sepa\TransferFile\TransferFileInterface;
+use Digitick\Sepa\GroupHeader;
+use Digitick\Sepa\TransferInformation\CustomerCreditTransferInformation;
+use Digitick\Sepa\TransferInformation\TransferInformationInterface;
 
 class CustomerCreditTransferDomBuilder extends BaseDomBuilder
 {

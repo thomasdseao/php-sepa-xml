@@ -20,9 +20,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\TransferInformation;
+namespace Digitick\Sepa\TransferInformation;
 
-use Thomasdseao\Sepa\DomBuilder\DomBuilderInterface;
+use Digitick\Sepa\DomBuilder\DomBuilderInterface;
 
 interface TransferInformationInterface
 {

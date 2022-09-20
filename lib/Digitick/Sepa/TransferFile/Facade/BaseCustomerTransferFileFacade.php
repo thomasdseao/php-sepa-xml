@@ -20,10 +20,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\TransferFile\Facade;
+namespace Digitick\Sepa\TransferFile\Facade;
 
-use Thomasdseao\Sepa\DomBuilder\BaseDomBuilder;
-use Thomasdseao\Sepa\TransferFile\TransferFileInterface;
+use Digitick\Sepa\DomBuilder\BaseDomBuilder;
+use Digitick\Sepa\TransferFile\TransferFileInterface;
 
 abstract class BaseCustomerTransferFileFacade implements CustomerTransferFileFacadeInterface
 {

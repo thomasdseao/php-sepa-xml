@@ -20,9 +20,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\DomBuilder;
+namespace Digitick\Sepa\DomBuilder;
 
-use Thomasdseao\Sepa\GroupHeader;
+use Digitick\Sepa\GroupHeader;
 
 
 abstract class BaseDomBuilder implements DomBuilderInterface

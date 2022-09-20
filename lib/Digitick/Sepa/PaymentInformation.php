@@ -20,12 +20,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa;
+namespace Digitick\Sepa;
 
-use Thomasdseao\Sepa\DomBuilder\DomBuilderInterface;
-use Thomasdseao\Sepa\Exception\InvalidPaymentMethodException;
-use Thomasdseao\Sepa\TransferInformation\TransferInformationInterface;
-use Thomasdseao\Sepa\Util\StringHelper;
+use Digitick\Sepa\DomBuilder\DomBuilderInterface;
+use Digitick\Sepa\Exception\InvalidPaymentMethodException;
+use Digitick\Sepa\TransferInformation\TransferInformationInterface;
+use Digitick\Sepa\Util\StringHelper;
 
 class PaymentInformation
 {

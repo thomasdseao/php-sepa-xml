@@ -20,14 +20,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\TransferFile\Factory;
+namespace Digitick\Sepa\TransferFile\Factory;
 
-use Thomasdseao\Sepa\DomBuilder\CustomerCreditTransferDomBuilder;
-use Thomasdseao\Sepa\DomBuilder\CustomerDirectDebitTransferDomBuilder;
-use Thomasdseao\Sepa\GroupHeader;
-use Thomasdseao\Sepa\TransferFile\CustomerCreditTransferFile;
-use Thomasdseao\Sepa\TransferFile\Facade\CustomerDirectDebitFacade;
-use Thomasdseao\Sepa\TransferFile\CustomerDirectDebitTransferFile;
+use Digitick\Sepa\DomBuilder\CustomerCreditTransferDomBuilder;
+use Digitick\Sepa\DomBuilder\CustomerDirectDebitTransferDomBuilder;
+use Digitick\Sepa\GroupHeader;
+use Digitick\Sepa\TransferFile\CustomerCreditTransferFile;
+use Digitick\Sepa\TransferFile\Facade\CustomerDirectDebitFacade;
+use Digitick\Sepa\TransferFile\CustomerDirectDebitTransferFile;
 
 class TransferFileFacadeFactory
 {

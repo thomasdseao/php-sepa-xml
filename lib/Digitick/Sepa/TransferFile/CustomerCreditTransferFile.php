@@ -20,12 +20,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Thomasdseao\Sepa\TransferFile;
+namespace Digitick\Sepa\TransferFile;
 
-use Thomasdseao\Sepa\Exception\InvalidTransferFileConfiguration;
-use Thomasdseao\Sepa\Exception\InvalidTransferTypeException;
-use Thomasdseao\Sepa\PaymentInformation;
-use Thomasdseao\Sepa\TransferInformation\CustomerCreditTransferInformation;
+use Digitick\Sepa\Exception\InvalidTransferFileConfiguration;
+use Digitick\Sepa\Exception\InvalidTransferTypeException;
+use Digitick\Sepa\PaymentInformation;
+use Digitick\Sepa\TransferInformation\CustomerCreditTransferInformation;
 
 class CustomerCreditTransferFile extends BaseTransferFile
 {
